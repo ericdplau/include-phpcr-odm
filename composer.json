@@ -1,0 +1,19 @@
+{
+    "name": "ericdplau/include-phpcr-odm",
+    "description": "Doctrine PHPCR requires",
+    "license": "MIT",
+    "minimum-stability":"dev",
+    "require": {
+        "php": ">=5.3.3",
+        "doctrine/phpcr-bundle": "1.2.*",
+        "doctrine/phpcr-odm": "1.2.*"
+    },
+    "require-dev": {
+        "jackalope/jackalope-doctrine-dbal": "1.*"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1-dev"
+        }
+    }
+}
